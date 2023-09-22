@@ -1,0 +1,38 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'font', sans-serif;
+    background: #FBFAFF;
+}
+
+input, button, select, textarea {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+.item {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: olivedrab;
+    font-size: 30px;
+    font-weight: 600;
+}
